@@ -1,0 +1,49 @@
+.about {
+  margin-top: 100px;
+
+  &__welcome {
+    font-size: 26px;
+    margin-bottom: 10px;
+  }
+
+  &__social {
+    margin-bottom: 20px;
+  }
+
+  &__social-icon {
+    margin-right: 10px;
+  }
+
+  &__name {
+    font-size: 48px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+  }
+
+  &__surname {
+    font-size: 48px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 5px;
+  }
+
+  &__position {
+    color: $color-moss-green;
+    font-size: 22px;
+    font-weight: 400;
+  }
+
+  &__info {
+    margin: 30px 0 10px 0;
+    max-width: 75%
+  }
+
+  p + p {
+    margin-top: 0px;
+  }
+
+  &__cv {
+    margin-top: 30px;
+  }
+}

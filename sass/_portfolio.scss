@@ -1,0 +1,57 @@
+.portfolio {
+  margin: 40px 0;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  &__header {
+    font-size: 40px;
+  }
+
+  &__cards {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    align-items: center;
+    width: 60%;
+  }
+
+  &__card {
+    display: flex;
+    margin-bottom: 40px;
+  }
+
+  &__info {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    margin: 10px 30px 10px 30px;
+  }
+
+  &__type {
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: $color-moss-green;
+  }
+
+  &__title {
+    margin: 10px 0;
+    font-size: 28px;
+    font-weight: 800;
+    color: $color-black;
+  }
+
+  &__desc {
+    font-size: 16px;
+  }
+
+  &__website {
+    margin-top: 20px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}

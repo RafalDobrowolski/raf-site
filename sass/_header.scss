@@ -1,0 +1,10 @@
+.header {
+  display: flex;
+
+  &__right {
+    margin: 0 80px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+  }
+}

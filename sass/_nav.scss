@@ -1,0 +1,18 @@
+.nav {
+  margin: 20px 0;
+  font-size: 20px;
+  font-weight: 500;
+
+  &__item {
+    margin-right: 50px;
+    &,
+    &:link,
+    &:visited {
+      color: $color-gray-text;
+    }
+
+    &:hover {
+      color: $color-cabaret;
+    }
+  }
+}
